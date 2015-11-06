@@ -1,10 +1,12 @@
 'use strict';
 
 var gulp      = require('gulp'),
+var template = require('gulp-template'),
     connect   = require('gulp-connect'),
     stylus    = require('gulp-stylus'),
     nib       = require('nib'),
     jshint    = require('gulp-jshint'),
+
 
     historyApiFallback = require('connect-history-api-fallback');
 
