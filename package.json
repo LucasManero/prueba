@@ -1,10 +1,10 @@
 {
-  "name": "ebook-frontend-project",
+  "name": "curso",
   "version": "0.0.1",
   "description": "Ejemplo de desarrollo de aplicación web con JavaScript",
   "bugs": {
-    "url": "https://github.com/carlosazaustre/ebook-frontend-project/issues",
-    "email": "cazaustre@gmail.com"
+    "url": "https://github.com/LucasManero/curso/issues",
+    "email": "lmanero.94@gmail.com"
   },
   "license": "MIT",
   "author": {
