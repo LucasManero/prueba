@@ -1,6 +1,16 @@
 var gulp = require('gulp'),
  connect = require('gulp-connect'),
+ open = require('gulp-open'),
  historyApiFallback = require('connect-history-api-fallback');
+
+ gulp.task('open', function () {
+   var options = {
+     url: 'http://localhost:9000'
+   };
+
+   gulp.src('./app/scripts/index.html') //this must be a valid and existing path.
+     .pipe(open('<%file.path%>', options));
+ });
 // Servidor web de desarrollo
 gulp.task('server', function() {
  connect.server({
